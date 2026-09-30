@@ -1,31 +1,58 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Bingo Static Stack uptime monitor (Upptime). Checks every 5 minutes from GitHub Actions.
+# A site that goes down opens a GitHub issue assigned to bingosabah (GitHub emails you),
+# and the issue closes itself when the site comes back.
+# To add a site: copy a block below, change name + url, commit. Nothing else to do.
+owner: bingosabah
+repo: uptime
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  # Clients (retainer)
+  - name: Invest Sabah
+    url: https://www.investsabah.gov.my
+  - name: Invest Sabah (bare domain redirect)
+    url: https://investsabah.gov.my
+  - name: Platinum Dental
+    url: https://platinumdental.com.my
+  - name: FTS Chin Dental
+    url: https://ftsdental.com
+  - name: KKIMD (DBKK)
+    url: https://kkimd.com.my
+  - name: ZEAL
+    url: https://zealserviceindustry.com
+  - name: EasySolar
+    url: https://www.easysolar.com.my
+  - name: Jesselton Point
+    url: https://jesseltonpoint.com.my
+  - name: Procraft
+    url: https://procraft.com.my
+  - name: The BIG G
+    url: https://thebigg.com.my
+  - name: OGSE
+    url: https://ogse-sabah.pages.dev
+  # Bingo and Daniel's own
+  - name: Bingo Web Design
+    url: https://bingowebdesign.my
+  - name: Bingo Progress boards
+    url: https://bingo-progress.pages.dev
+  - name: HelloReply
+    url: https://helloreply.my
+  - name: SabahGuide
+    url: https://sabahguide.com
+  - name: Bagasi
+    url: https://bagasi.my
+  - name: GoReview
+    url: https://goreview.my
+  - name: danielwong.me
+    url: https://danielwong.me
+
+assignees:
+  - bingosabah
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  baseUrl: /uptime
+  name: Bingo Sites Status
+  introTitle: "Bingo Static Stack sites"
+  introMessage: Live status of the websites Bingo Digital Marketing builds and hosts. Checked every 5 minutes.
   navbar:
     - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+      href: /uptime/
