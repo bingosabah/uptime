@@ -1,4 +1,4 @@
-# Bingo Static Stack uptime monitor (Upptime). Checks every 5 minutes from GitHub Actions.
+# Bingo Static Stack uptime monitor (Upptime). Checks every 5 minutes from GitHub Actions. Set up 1 Oct 2026.
 # A site that goes down opens a GitHub issue assigned to bingosabah (GitHub emails you),
 # and the issue closes itself when the site comes back.
 # To add a site: copy a block below, change name + url, commit. Nothing else to do.
