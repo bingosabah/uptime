@@ -29,6 +29,8 @@ sites:
     url: https://thebigg.com.my
   - name: OGSE
     url: https://ogse-sabah.pages.dev
+  - name: SWWICE (preview, switch to swwice.com at go-live)
+    url: https://swwice.pages.dev
   # Bingo and Daniel's own
   - name: Bingo Web Design
     url: https://bingowebdesign.my
