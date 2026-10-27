@@ -39,6 +39,8 @@ sites:
     url: https://borneowildlifeholidays.com
   - name: SP Marine Services (SPSB)
     url: https://www.spmarineservices.com.my
+  - name: SP Marine Services (bare domain redirect)
+    url: https://spmarineservices.com.my
   # Bingo and Daniel's own
   - name: Bingo Web Design
     url: https://bingowebdesign.my
