@@ -60,6 +60,29 @@ sites:
     url: https://goreview.my
   - name: danielwong.me
     url: https://danielwong.me
+  # Report clients added 3 Nov 2026 (monthly letters / quarterly website reviews)
+  - name: MU Scalp
+    url: https://hairlosstreatment.com.my
+  - name: MOQS Movand Academy
+    url: https://www.movand.com.my
+  - name: Asian Supply Base
+    url: https://asiansupplybase.my
+  - name: The Palace Hotel KK
+    url: https://thepalacehotelkk.com
+  - name: Kim Teck Cheong
+    url: https://kimteckcheong.com
+  - name: Sabah Ports (SPSB)
+    url: https://spsb.com.my
+  - name: Suria Group
+    url: https://suriagroup.com.my
+  - name: Emas Dinamik
+    url: https://emasdinamik.com
+  - name: Klinik Malaysia
+    url: https://klinikmalaysia.com.my
+  - name: Doncaster Hill Dental
+    url: https://doncasterhilldental.com.au
+  - name: Evolusi Bersatu
+    url: https://evolusi-bersatu.com
 
 assignees:
   - bingosabah
