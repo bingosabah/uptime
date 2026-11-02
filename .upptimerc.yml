@@ -31,8 +31,8 @@ sites:
     url: https://thebigg.com.my
   - name: OGSE
     url: https://ogse-sabah.pages.dev
-  - name: SWWICE (preview, switch to swwice.com at go-live)
-    url: https://swwice.pages.dev
+  - name: SWWICE
+    url: https://swwice.com
   - name: WMK Cold Room
     url: https://wmkcoldroomrefrigeration.com
   - name: Borneo Wildlife Holidays
